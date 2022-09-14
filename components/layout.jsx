@@ -6,7 +6,7 @@ export default function Layout({ children }) {
   return (
     <div className="section">
       <Head>
-        <link rel="icon" href="/img/logo.png" />
+        <link rel="icon" href="/logo1.svg" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#ffffff"/>

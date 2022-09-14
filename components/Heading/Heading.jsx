@@ -132,8 +132,8 @@ export default function Heading() {
         <Image
           src="/1.webp"
           alt="logo"
-          width={492}
-          height={288}
+          width={1080}
+          height={720}
           priority
         />
       </div>
