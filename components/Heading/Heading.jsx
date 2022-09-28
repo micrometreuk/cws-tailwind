@@ -31,10 +31,10 @@ export default function Heading() {
                 <div className="flex flex-shrink-0 flex-grow items-center lg:flex-grow-0">
                   <div className="flex w-full items-center justify-between md:w-auto">
                     <Link href="/">
-                    <a>
-                      <span className="sr-only"> CWS</span>
-                      CWS
-                    </a>
+                      <a>
+                        <span className="sr-only"> CWS</span>
+                        CWS
+                      </a>
                     </Link>
                     <div className="-mr-2 flex items-center md:hidden">
                       <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -73,12 +73,12 @@ export default function Heading() {
                 <div className="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
                   <div className="flex items-center justify-between px-5 pt-4">
                     <div>
-                    <Link href="/">
-                    <a>
-                      <span className="sr-only"> CWS</span>
-                      CWS
-                    </a>
-                    </Link>
+                      <Link href="/">
+                        <a>
+                          <span className="sr-only"> CWS</span>
+                          CWS
+                        </a>
+                      </Link>
                     </div>
                     <div className="-mr-2">
                       <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -111,18 +111,18 @@ export default function Heading() {
 
           <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl md:text-6xl">
                 <span className="block xl:inline">Croydon Web Services</span>{' '}
+              </h1>
+            </div>
+
+            <div className="sm:text-center lg:text-left">
+              <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block text-indigo-600 xl:inline">Your portal to digital presence technology</span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                Provision and maintenance of your digital presence technology
-              </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="mt-3 sm:mt-0 sm:ml-3">
-                </div>
-              </div>
             </div>
+
+
           </main>
         </div>
       </div>

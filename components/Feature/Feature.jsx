@@ -3,27 +3,27 @@ import { BoltIcon, ChatBubbleBottomCenterTextIcon, GlobeAltIcon, ScaleIcon } fro
 
 const features = [
   {
-    name: 'Competitive exchange rates',
+    name: 'The CWS team  design your site with direct verbal and visual feedback from you based upon known prerequisites and your business requirements.',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Pages are designed to meet SEO (Search Engine Optimisation) and Accessibility requirements by default. Provision and maintenance of your digital presence. Spend your precious time focusing on your business, not trying to learn how best to setup and learn software concepts and tools.',
     icon: GlobeAltIcon,
   },
   {
-    name: 'No hidden fees',
+    name: 'What \'s a static site? ',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'A digital shop window for your business. Provides useful information such as what you do, where you are, how to communicate with you, customer feedback and  examples of your work via  your business media channels such as Twitter, Facebook, YouTube, LinkedIn, Instagram.',
     icon: ScaleIcon,
   },
   {
-    name: 'Transfers are instant',
+    name: 'What do I get?',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'A multiple page site: Company service or product description. location, open hours, feedback, about your team, contact and other relevant information you provideViewable on multiple devices (phones, tablets and PC\'s \).  Pages load quickly due to frameworks & technology used..',
     icon: BoltIcon,
   },
   {
-    name: 'Mobile notifications',
+    name: 'What about Security?',
     description:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
+      'Website sits behind a CDN, which ensures security against DOS (Denial Of Service) attacks and ransomware. A static site is not an interactive interface, no data is directly captured from visitors. Developed site is containerised, there are no interactive programs running, no external admin access, nothing to hack. Non shared hosting - One VPS, one IP address for one business.',
     icon: ChatBubbleBottomCenterTextIcon,
   },
 ]
@@ -33,13 +33,8 @@ export default function Example() {
     <div className="bg-white py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <h2 className="text-lg font-semibold text-indigo-600">Transactions</h2>
           <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
-            A better way to send money
-          </p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-            accusamus quisquam.
+          Why get CWS hosting
           </p>
         </div>
 

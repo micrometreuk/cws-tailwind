@@ -8,6 +8,7 @@ export default function Home() {
  <div className="home-container">
     <Layout>
     <Heading />
+    <Feature />
     </Layout>
    </div>
     <style jsx>{`
