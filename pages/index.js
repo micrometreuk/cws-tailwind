@@ -14,6 +14,7 @@ export default function Home() {
     <NavBar2 />
     <Heading />
     <Feature />
+    <Pricing />
     <CopyRight />
     </Layout>
    </div>
