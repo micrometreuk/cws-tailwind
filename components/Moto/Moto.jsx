@@ -4,7 +4,7 @@ import {  motion,  useTransform, useMotionValue} from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import styles from "./Moto.module.css";
 
-export function ExternalMoto() {
+export default function Moto() {
 
   const [ref, inView, entry] = useInView({
     threshold: 0.5,
@@ -125,5 +125,3 @@ export function ExternalMoto() {
     </div>
   );
 }
-
-export default ExternalMoto;

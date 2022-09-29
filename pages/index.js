@@ -9,6 +9,7 @@ import NavBar3 from '../components/NavBar3'
 import Heading from '../components/Heading/'
 import Feature from '../components/Feature/'
 import Moto from "../components/Moto/Moto";
+import Showcase from "../components/Showcase/Showcase";
 import Pricing from '../components/Pricing/'
 import CopyRight from '../components/Copyright'
 const content = {
@@ -62,6 +63,7 @@ export default function Home() {
                 <Feature />
                 <Moto />
                 <Pricing />
+                <Showcase />
                 <CopyRight />
               </motion.div>
             </motion.div>
