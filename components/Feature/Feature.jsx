@@ -1,5 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { BoltIcon, ChatBubbleBottomCenterTextIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
+import { BoltIcon, ChatBubbleBottomCenterTextIcon, GlobeAltIcon,
+ComputerDesktopIcon, LanguageIcon, ServerIcon, NewspaperIcon, LockClosedIcon, VideoCameraIcon, VideoCameraSlashIcon,
+} from '@heroicons/react/24/outline'
 
 const features = [
   {
@@ -12,7 +14,7 @@ const features = [
     name: 'What \'s a static site? ',
     description:
       'A digital shop window for your business. Provides useful information such as what you do, where you are, how to communicate with you, customer feedback and  examples of your work via  your business media channels such as Twitter, Facebook, YouTube, LinkedIn, Instagram.',
-    icon: ScaleIcon,
+    icon: ComputerDesktopIcon,
   },
   {
     name: 'What do I get?',
@@ -24,11 +26,23 @@ const features = [
     name: 'What about Security?',
     description:
       'Website sits behind a CDN, which ensures security against DOS (Denial Of Service) attacks and ransomware. A static site is not an interactive interface, no data is directly captured from visitors. Developed site is containerised, there are no interactive programs running, no external admin access, nothing to hack. Non shared hosting - One VPS, one IP address for one business.',
-    icon: ChatBubbleBottomCenterTextIcon,
+    icon: LockClosedIcon,
+  },
+  {
+    name: 'Social media integration:',
+    description:
+      'Claim company name and use as a marketing channel for social media platforms. Management of content across social media platforms.The portal to a digital presence technology. It\'s configuration, management and maintenance via people without the need to learn software. Business card and flyers designed to maintain consistency of brand recognition.',
+    icon: NewspaperIcon,
+  },
+  {
+    name: 'Ownership of content',
+    description:
+      'Content hosted on third party platforms removes an essential aspect of privacy the right to control, edit, manage, and delete information about an individual and decide when, how, and to what extent information is communicated to others.',
+    icon: VideoCameraIcon,
   },
 ]
 
-export default function Example() {
+export default function Feature() {
   return (
     <div className="bg-white py-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
