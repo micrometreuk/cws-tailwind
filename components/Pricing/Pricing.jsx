@@ -6,11 +6,6 @@ export default function Pricing() {
           <div className="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
               <div className=" hover:shadow-2xl transition-all duration-150 ease-out hover:ease-in  shadow-lg flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
                   <div className="flex-shrink-0">
-                      <h2
-                          className="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                      >
-                          Get started
-                      </h2>
                   </div>
                   <div className="flex-shrink-0">
                       <span

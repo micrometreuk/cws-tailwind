@@ -12,7 +12,22 @@ const navigation = [
 
 export default function NavBar1() {
   return (
-    <div className="sticky top-0 z-50 bg-blue-300 ">
+    <div className=" bg-blue-300 "
+      style={{
+        borderRadius: "3px",
+        border: "1px solid black",
+        color: "black",
+        padding: "0.5em 1em",
+        cursor: "pointer",
+        fontSize: "1.1em",
+        zIndex: 1030,
+        position: "fixed",
+        top: 0,
+        right: 0,
+        left: 0,
+        marginTop: "3.6rem",
+      }}
+    >
       <div className="mx-auto max-w-7xl">
 
         <Popover>

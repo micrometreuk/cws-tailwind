@@ -1,127 +1,77 @@
-export default function Pricing() {
-  return (
-    <div className="bg-white py-12">
-<div className="bg-white dark:bg-gray-800">
-    <div className="container px-6 py-8 mx-auto">
-        <div className="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
-            <div className="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                <div className="flex-shrink-0">
-                    <h2 className="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700">
-                        Casual
-                    </h2>
-                </div>
-                <div className="flex-shrink-0">
-                    <span
-                        className="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                    >
-                        Free
-                    </span>
-                </div>
-                <ul className="flex-1 space-y-4">
-                    <li className="text-gray-499 dark:text-gray-400">
-                        Up to 5 projects
-                    </li>
-                    <li className="text-gray-500 dark:text-gray-400">
-                        Up to 10 collaborators
-                    </li>
-                    <li className="text-gray-500 dark:text-gray-400">
-                        2Gb of storage
-                    </li>
-                </ul>
-
-                <button
-                    className="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                >
-                    Start free
-                </button>
-            </div>
-
-            <div className="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                <div className="flex-shrink-0">
-                    <h2
-                        className="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                    >
-                        Profesional
-                    </h2>
-                </div>
-                <div className="flex-shrink-0">
-                    <span
-                        className="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                    >
-                        $24.90
-                    </span>
-                    <span className="text-gray-500 dark:text-gray-400">
-                        /month
-                    </span>
-                </div>
-                <ul className="flex-1 space-y-4">
-                    <li className="text-gray-500 dark:text-gray-400">
-                        Up to 10 projects
-                    </li>
-                    <li className="text-gray-500 dark:text-gray-400">
-                        Up to 20 collaborators
-                    </li>
-                    <li className="text-gray-500 dark:text-gray-400">
-                        10Gb of storage
-                    </li>
-                    <li className="text-gray-500 dark:text-gray-400">
-                        Real-time collaborations
-                    </li>
-                </ul>
-
-                <button
-                    className="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                >
-                    Start free trial
-                </button>
-            </div>
-
-            <div className="flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2 border-gray-200 rounded-lg lg:mx-4 dark:bg-gray-800 dark:border-gray-700">
-                <div className="flex-shrink-0">
-                    <h2
-                        className="inline-flex items-center justify-center px-2 font-semibold tracking-tight text-blue-400 uppercase rounded-lg bg-gray-50 dark:bg-gray-700"
-                    >
-                        Expert
-                    </h2>
-                </div>
-                <div className="flex-shrink-0">
-                    <span
-                        className="pt-2 text-4xl font-bold text-gray-800 uppercase dark:text-gray-100"
-                    >
-                        $49.90
-                    </span>
-                    <span className="text-gray-500 dark:text-gray-400">
-                        /month
-                    </span>
-                </div>
-                <ul className="flex-1 space-y-4">
-                    <li className="text-gray-500 dark:text-gray-400">
-                        Unlimited projects
-                    </li>
-                    <li className="text-gray-500 dark:text-gray-400">
-                        Unlimited collaborators
-                    </li>
-                    <li className="text-gray-500 dark:text-gray-400">
-                        Unlimited storage
-                    </li>
-                    <li className="text-gray-500 dark:text-gray-400">
-                        Real-time collaborations
-                    </li>
-                    <li className="text-gray-500 dark:text-gray-400">
-                        24x7 Support
-                    </li>
-                </ul>
-
-                <button
-                    className="inline-flex items-center justify-center px-4 py-2 font-semibold text-white uppercase transition-colors bg-blue-500 rounded-lg hover:bg-blue-700 focus:outline-none"
-                >
-                    Start free trial
-                </button>
-            </div>
+<div className="bg-gradient-to-r from-gray-100 via-[#bce1ff] to-gray-100">
+  <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <div>
+      <img src="#" className="mr-5 h-6 sm:h-9" alt="logo" />
+        <p className="max-w-xs mt-4 text-sm text-gray-600">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, accusantium.
+        </p>
+        <div className="flex mt-8 space-x-6 text-gray-600">
+          <a className="hover:opacity-75" href target="_blank" rel="noreferrer">
+            <span className="sr-only"> Facebook </span>
+          </a>
+          <a className="hover:opacity-75" href target="_blank" rel="noreferrer">
+            <span className="sr-only"> Instagram </span>
+          </a>
+          <a className="hover:opacity-75" href target="_blank" rel="noreferrer">
+            <span className="sr-only"> Twitter </span>
+          </a>
+          <a className="hover:opacity-75" href target="_blank" rel="noreferrer">
+            <span className="sr-only"> GitHub </span>
+          </a>
+          <a className="hover:opacity-75" href target="_blank" rel="noreferrer">
+          </a>
         </div>
+      </div>
+      <div className="grid grid-cols-1 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-4">
+        <div>
+          <p className="font-medium">
+            Company
+          </p>
+          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+            <a className="hover:opacity-75" href> About </a>
+            <a className="hover:opacity-75" href> Meet the Team </a>
+            <a className="hover:opacity-75" href> History </a>
+            <a className="hover:opacity-75" href> Careers </a>
+          </nav>
+        </div>
+        <div>
+          <p className="font-medium">
+            Services
+          </p>
+          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+            <a className="hover:opacity-75" href> 1on1 Coaching </a>
+            <a className="hover:opacity-75" href> Company Review </a>
+            <a className="hover:opacity-75" href> Accounts Review </a>
+            <a className="hover:opacity-75" href> HR Consulting </a>
+            <a className="hover:opacity-75" href> SEO Optimisation </a>
+          </nav>
+        </div>
+        <div>
+          <p className="font-medium">
+            Helpful Links
+          </p>
+          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+            <a className="hover:opacity-75" href> Contact </a>
+            <a className="hover:opacity-75" href> FAQs </a>
+            <a className="hover:opacity-75" href> Live Chat </a>
+          </nav>
+        </div>
+        <div>
+          <p className="font-medium">
+            Legal
+          </p>
+          <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
+            <a className="hover:opacity-75" href> Privacy Policy </a>
+            <a className="hover:opacity-75" href> Terms &amp; Conditions </a>
+            <a className="hover:opacity-75" href> Returns Policy </a>
+            <a className="hover:opacity-75" href> Accessibility </a>
+          </nav>
+        </div>
+      </div>
     </div>
+    <p className="mt-8 text-xs text-gray-800">
+      © 2022 Comany Name
+    </p>
+  </div>
 </div>
-    </div>
-  )
-}
-
