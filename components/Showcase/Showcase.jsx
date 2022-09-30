@@ -27,14 +27,14 @@ export default function Showcase() {
     },
     {
       name: 'Elmbridge Painting',
-      description: 'Professional Painters and Decorators in Elmbridge and surrounding areas.',
+      description: 'Professional Painters and Decorators in Elmbridge ',
       imageSrc: '/10.webp',
       imageAlt: 'website image.',
       href: 'https://elmbridgepainting.com/',
     },
     {
       name: 'Electrical surrey',
-      description: 'Electrical specialists serving surrey and surrounding areas.',
+      description: 'Electrical specialists Serving surrey ',
       imageSrc: '/11.webp',
       imageAlt: 'website image.',
       href: 'https://electricalsurrey.com/',
