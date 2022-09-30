@@ -31,10 +31,16 @@ export default function Pricing() {
                       Protection against DDoS Attack
                       </li>
                       <li className="text-gray-500 dark:text-gray-400">
-                      Social media platforms
+                      Social media platform integration
+                      </li>
+                      <li className="text-gray-500 dark:text-gray-400">
+                      GDPR compliance without the use of cookies
                       </li>
                       <li className="text-gray-500 dark:text-gray-400">
                       Search Engine Optimization (SEO)
+                      </li>
+                      <li className="text-gray-500 dark:text-gray-400">
+                      Accessibility compliance
                       </li>
                   </ul>
   

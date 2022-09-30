@@ -48,6 +48,7 @@ export default function Home() {
       <div className="home-container">
         <Layout>
           <NavBar2 />
+          <NavBar1 />
           <motion.section
             exit={{ opacity: 0 }}
           >
@@ -61,8 +62,8 @@ export default function Home() {
               >
                 <Heading />
                 <Feature />
-                <Moto />
                 <Pricing />
+                <Moto />
                 <Showcase />
                 <CopyRight />
               </motion.div>

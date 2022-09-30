@@ -19,11 +19,11 @@ export default function Showcase() {
 
   const callouts = [
     {
-      name: 'MicrometreUK ',
-      description: 'MicrometreUK project website ',
-      imageSrc: '/12.webp',
+      name: 'Evans Exteriorcleaning ',
+      description: 'Professional exterior cleaning services.',
+      imageSrc: '/13.webp',
       imageAlt: 'website image.',
-      href: 'https://micrometre.uk/',
+      href: 'https://evansexteriorcleaning.co.uk/',
     },
     {
       name: 'Elmbridge Painting',
@@ -55,7 +55,7 @@ export default function Showcase() {
         <div className="bg-gray-100">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-1xl py-16 sm:py-24 lg:max-w-none lg:py-2">
-              <h2 className="text-4xl font-bold text-gray-900">Showcase</h2>
+              <h2 className="text-4xl font-bold text-gray-900">Websites desingend, built and hosted by CWS</h2>
 
               <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                 {callouts.map((callout) => (
