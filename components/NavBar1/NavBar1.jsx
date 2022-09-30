@@ -4,19 +4,17 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'Features', href: '#fetures' },
+  { name: 'Showcase', href: '#showcase' },
 ]
 
 export default function NavBar1() {
   return (
-    <div className=" bg-blue-300 "
+    <div className=" bg-blue-600 "
       style={{
         borderRadius: "3px",
         border: "1px solid black",
-        color: "black",
         padding: "0.5em 1em",
         cursor: "pointer",
         fontSize: "1.1em",
@@ -25,7 +23,7 @@ export default function NavBar1() {
         top: 0,
         right: 0,
         left: 0,
-        marginTop: "3.6rem",
+        marginTop: "3.1rem",
       }}
     >
       <div className="mx-auto max-w-7xl">
@@ -51,13 +49,10 @@ export default function NavBar1() {
               </div>
               <div className=" hidden md:ml-10 md:block md:space-x-8 md:pr-4">
                 {navigation.map((item) => (
-                  <a key={item.name} href={item.href} className="font-medium text-gray-500 hover:text-gray-900">
+                  <a key={item.name} href={item.href} className="font-medium text-white hover:text-gray-900">
                     {item.name}
                   </a>
                 ))}
-                <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                  Log in
-                </a>
               </div>
             </nav>
           </div>
@@ -103,12 +98,6 @@ export default function NavBar1() {
                     </a>
                   ))}
                 </div>
-                <a
-                  href="#"
-                  className="block w-full bg-gray-50 px-5 py-3 text-center font-medium text-indigo-600 hover:bg-gray-100"
-                >
-                  Log in
-                </a>
               </div>
             </Popover.Panel>
           </Transition>

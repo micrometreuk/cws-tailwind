@@ -44,7 +44,7 @@ export default function Showcase() {
 
 
   return (
-    <div className={styles.externalContainer}>
+    <div className={styles.externalContainer} id="showcase" >
       <motion.div
         animate={inView ? 'visible' : 'hidden'}
         variants={variants}
@@ -53,8 +53,8 @@ export default function Showcase() {
       >
 
         <div className="bg-gray-100">
-          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="mx-auto max-w-1xl py-16 sm:py-24 lg:max-w-none lg:py-2">
+          <div className="mx-auto max-w-7xl px-4 sm:px-2 lg:px-8">
+            <div className="mx-auto max-w-1xl py-16 sm:py-2 lg:max-w-none lg:py-2">
               <h2 className="text-4xl font-bold text-gray-900">Websites desingend, built and hosted by CWS</h2>
 
               <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">

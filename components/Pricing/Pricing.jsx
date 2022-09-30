@@ -1,6 +1,6 @@
 export default function Pricing() {
     return (
-      <div className="bg-white py-12">
+      <div className="bg-white py-3" id="price">
   <div className="bg-white dark:bg-gray-800">
       <div className="container px-6 py-8 mx-auto">
           <div className="flex flex-col items-center justify-center space-y-8 lg:-mx-4 lg:flex-row lg:items-stretch lg:space-y-0">
