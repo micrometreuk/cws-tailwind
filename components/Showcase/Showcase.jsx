@@ -4,18 +4,6 @@ import { useInView } from 'react-intersection-observer';
 import styles from "./Showcase.module.css";
 export default function Showcase() {
 
-  const [ref, inView, entry] = useInView({
-    threshold: 0.5,
-    triggerOnce: false
-  });
-  const variants = {
-    visible: { opacity: 1, scale: 1, y: 0 },
-    hidden: {
-      opacity: 0,
-      scale: 0.65,
-      y: 50
-    }
-  };
 
   const callouts = [
     {
@@ -44,18 +32,11 @@ export default function Showcase() {
 
 
   return (
-    <div className={styles.externalContainer} id="showcase" >
-      <motion.div
-        animate={inView ? 'visible' : 'hidden'}
-        variants={variants}
-        transition={{ duration: 2, ease: 'easeOut' }}
-        ref={ref}
-      >
-
+    <div className={styles.externalContainer}  >
         <div className="bg-gray-100">
           <div className="mx-auto max-w-7xl px-4 sm:px-2 lg:px-8">
             <div className="mx-auto max-w-1xl py-16 sm:py-2 lg:max-w-none lg:py-2">
-              <h2 className="text-4xl font-bold text-gray-900">Websites desingend, built and hosted by CWS</h2>
+              <h2 className="text-4xl font-bold text-gray-900"   >Websites desingend, built and hosted by CWS</h2>
 
               <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                 {callouts.map((callout) => (
@@ -88,7 +69,6 @@ export default function Showcase() {
             </div>
           </div>
         </div>
-      </motion.div>
     </div>
   );
 }
