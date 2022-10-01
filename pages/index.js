@@ -11,6 +11,7 @@ import Feature from '../components/Feature/'
 import Moto from "../components/Moto/Moto";
 import Showcase from "../components/Showcase/Showcase";
 import Pricing from '../components/Pricing/'
+import ProductFeatures from "../components/ProductFeatures/ProductFeatures";
 import CopyRight from '../components/Copyright'
 const content = {
   animate: {

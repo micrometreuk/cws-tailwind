@@ -13,6 +13,7 @@ export default function NavBar1() {
   return (
     <div className=" bg-blue-600 "
       style={{
+        backgroundColor: "#692dd5",
         borderRadius: "3px",
         border: "1px solid black",
         padding: "0.5em 1em",
