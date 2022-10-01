@@ -19,12 +19,10 @@ RUN yarn build
 
 # Expose the listening port
 EXPOSE 8551
+CMD yarn start
 
-# Run container as non-root (unprivileged) user
-# The node user is provided in the Node.js Alpine base image
-USER node
 
 # Run npm start script with PM2 when container starts
 #CMD [ "npm", "run express" ]
-CMD [ "pm2-runtime", "start", "npm", "--", "start" ]
+#CMD [ "pm2-runtime", "start", "npm", "--", "start" ]
 
