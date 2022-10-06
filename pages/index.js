@@ -13,6 +13,7 @@ import Showcase from "../components/Showcase/Showcase";
 import Pricing from '../components/Pricing/'
 import ProductFeatures from "../components/ProductFeatures/ProductFeatures";
 import CopyRight from '../components/Copyright'
+import Footer from "../components/Footer";
 const content = {
   animate: {
     transition: { staggerChildren: 0.1 },
@@ -48,8 +49,6 @@ export default function Home() {
     <div className="home">
       <div className="home-container">
         <Layout>
-          <NavBar2 />
-          <NavBar1 />
           <motion.section
             exit={{ opacity: 0 }}
           >
@@ -67,6 +66,7 @@ export default function Home() {
                 <Moto />
                 <Showcase />
                 <CopyRight />
+                <Footer />
               </motion.div>
             </motion.div>
           </motion.section>
@@ -77,7 +77,6 @@ export default function Home() {
 
       <style jsx global>{`
 body{
-      font-family: font-sans-serif;
 }
 `}</style>
 

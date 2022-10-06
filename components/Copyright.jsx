@@ -47,8 +47,6 @@ export function CopyRight() {
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 0.8rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         }
 
         .copyright-grid {

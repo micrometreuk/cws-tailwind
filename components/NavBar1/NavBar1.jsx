@@ -7,6 +7,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Features', href: '#fetures' },
   { name: 'Showcase', href: '#promo' },
+  { name: 'Contact', href: 'contact' },
 ]
 
 export default function NavBar1() {

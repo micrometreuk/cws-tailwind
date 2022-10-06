@@ -82,32 +82,8 @@ export default function Moto() {
                                 height={300}
                             />
                       </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <Image
-                                src="/7.jpeg"
-                                alt="About picture"
-                                width={500}
-                                height={300}
-                            />
-                      </div>
                     </div>
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <Image
-                                src="/8.jpeg"
-                                alt="About picture"
-                                width={500}
-                                height={300}
-                            />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                      <Image
-                                src="/9.jpeg"
-                                alt="About picture"
-                                width={500}
-                                height={300}
-                            />
-                      </div>
                     </div>
                   </div>
                 </div>
