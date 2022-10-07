@@ -5,8 +5,8 @@ import { Popover, Transition } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Features', href: '#fetures' },
-  { name: 'Showcase', href: '#promo' },
+  { name: 'Features', href: '/#fetures' },
+  { name: 'Showcase', href: '/#promo' },
   { name: 'Contact', href: 'contact' },
 ]
 
