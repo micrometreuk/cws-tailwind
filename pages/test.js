@@ -1,11 +1,13 @@
 import Image from "next/image";
-import Layout from "../layout";
+import Layout from '../components/layout';
+
 const navigation = [
   { name: 'Contact', href: '#' },
 ]
 
 export default function Heading() {
   return (
+    <Layout>
 
       <div className="relative overflow-hidden   bg-white rounded-lg dark:bg-gray-800 mt-10 transition duration-300">
         <div className="mx-auto max-w-7xl">
@@ -41,5 +43,6 @@ export default function Heading() {
           />
         </div>
       </div>
+    </Layout>
   )
 }

@@ -14,6 +14,7 @@ import Pricing from '../components/Pricing/'
 import ProductFeatures from "../components/ProductFeatures/ProductFeatures";
 import CopyRight from '../components/Copyright'
 import Footer from "../components/Footer";
+
 const content = {
   animate: {
     transition: { staggerChildren: 0.1 },

@@ -29,17 +29,6 @@ export default function Footer() {
       <footer>
         <CopyRight />
       </footer>
-
-      <style jsx>{`
-
-      `}</style>
-
-      <style jsx global>{`
-        html,
-        * {
-          box-sizing: border-box;
-        }
-      `}</style>
     </div>
   )
 }
