@@ -2,7 +2,8 @@ import React from "react";
 import userData from "../constants/data";
 import { motion } from "framer-motion";
 import Layout from "../components/layout";
-import CopyRight from "../components/Copyright";
+import PrivacyPage from "../components/Privacy/Privacy";
+
 import Contact from "../components/Contact/Contact";
 
 const content = {
@@ -46,7 +47,7 @@ export  default function ContactMotion() {
 						initial="initial"
 					>
 						<motion.div variants={title}>
-							<Contact />
+							<PrivacyPage />
 						</motion.div>
 					</motion.div>
 				</motion.section>

@@ -65,8 +65,6 @@ export default function Home() {
                 <Pricing />
                 <Moto />
                 <Showcase />
-                <CopyRight />
-                <Footer />
               </motion.div>
             </motion.div>
           </motion.section>

@@ -4,6 +4,10 @@ import NavBar1 from '../components/NavBar1'
 import NavBar2 from '../components/NavBar2'
 import NavBar3 from '../components/NavBar3'
 import Heading from '../components/Heading/'
+
+import CopyRight from '../components/Copyright'
+import Footer from "../components/Footer";
+
 export const siteTitle = "Croydon Web Services";
 
 export default function Layout({ children }) {
@@ -28,6 +32,7 @@ export default function Layout({ children }) {
       <NavBar2 />
       <NavBar1 />
       <main>{children}</main>
+      <Footer />
     </div>
   );
 }
