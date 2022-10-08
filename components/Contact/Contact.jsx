@@ -12,7 +12,7 @@ export function Contact() {
                   Giving us a call.
                   <br />
                   <a
-                    href="tel:07445549727<"
+                    href="tel:020-8665-4227<"
                     title="Call"
                   >
                     <FaPhone size={38}
