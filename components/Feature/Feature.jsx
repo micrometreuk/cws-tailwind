@@ -44,10 +44,10 @@ const features = [
 
 export default function Feature() {
   return (
-    <div className="bg-white py-12" id="fetures">
+    <div className="bg-white dark:bg-black py-12" id="fetures">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
-          <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl">
+          <p className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 dark:text-white sm:text-4xl">
           Why get CWS hosting
           </p>
         </div>
@@ -60,9 +60,9 @@ export default function Feature() {
                   <div className="absolute flex h-12 w-12 items-center justify-center rounded-md bg-indigo-500 text-white">
                     <feature.icon className="h-6 w-6" aria-hidden="true" />
                   </div>
-                  <p className="ml-16 text-lg font-medium leading-6 text-gray-900">{feature.name}</p>
+                  <p className="ml-16 text-lg font-medium leading-6 text-gray-900 dark:text-white ">{feature.name}</p>
                 </dt>
-                <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
+                <dd className="mt-2 ml-16 text-base text-gray-500 dark:text-slate-300">{feature.description}</dd>
               </div>
             ))}
           </dl>

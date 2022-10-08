@@ -1,8 +1,4 @@
 import Image from "next/image";
-import Layout from "../layout";
-const navigation = [
-  { name: 'Contact', href: '#' },
-]
 
 export default function Heading() {
   return (

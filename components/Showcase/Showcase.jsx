@@ -29,10 +29,10 @@ export default function Showcase() {
 
 
   return (
-        <div className="bg-gray-100">
+        <div className="bg-gray-100 dark:bg-gray-800">
           <div className="mx-auto max-w-7xl px-4 sm:px-2 lg:px-8">
-            <div className="mx-auto max-w-1xl py-16 sm:py-2 lg:max-w-none lg:py-2">
-              <h2 className="text-4xl font-bold text-gray-900"   >Websites designed, built and hosted by CWS</h2>
+            <div className="mx-auto max-w-1xl py-16 sm:py-2 lg:max-w-none lg:py-2 lg:text-center">
+              <h2 className="text-4xl font-bold text-gray-900  dark:text-gray-400"   >Websites designed, built and hosted by CWS</h2>
 
               <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
                 {callouts.map((callout) => (
@@ -46,7 +46,7 @@ export default function Showcase() {
                         className="h-full w-full object-cover object-center"
                       />
                     </div>
-                    <h3 className="mt-6 text-sm text-gray-500">
+                    <h3 className="mt-6 text-sm text-gray-500  dark:text-white">
                       <a 
                       href={callout.href}
                       target="_blank"
@@ -58,7 +58,7 @@ export default function Showcase() {
                         {callout.name}
                       </a>
                     </h3>
-                    <p className="text-base font-semibold text-gray-900">{callout.description}</p>
+                    <p className="text-base font-semibold text-gray-900  dark:text-gray-400">{callout.description}</p>
                   </div>
                 ))}
               </div>
