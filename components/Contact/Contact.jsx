@@ -1,50 +1,8 @@
 import { FaPhone, FaFacebook, FaWhatsapp, FaYoutube, FaTwitter, FaInstagram, FaEnvelope } from 'react-icons/fa';
 
-const phoneTitleStyles = {
-  fontSize: "1.0rem",
-  color: "black",
-  margin: "0.1rem",
-  padding: "0.1rem",
-  textDecoration: "none",
-};
-
-const phoneIconStyles = {
-  fontSize: "1.0rem",
-  color: "olive",
-  margin: "0.1rem",
-  textDecoration: "none",
-};
-
-const phoneLinksStyles = {
-  fontSize: "1.0rem",
-  color: "teal",
-  margin: "0.1rem",
-  padding: "0.1rem",
-  textDecoration: "none",
-  display: "flex",
-};
-const emailIconStyles = {
-  fontSize: "1.0rem",
-  color: "olive",
-  margin: "0.1rem",
-  textDecoration: "none",
-};
-const emailLinksStyles = {
-  fontSize: "1.0rem",
-  color: "#008080",
-  margin: "0.1rem",
-  textDecoration: "none",
-};
-
-const socialIconStyles = {
-  fontSize: "2.0rem",
-  color: "black",
-  margin: "0.1rem",
-  padding: "0.5rem",
-};
 export function Contact() {
   return (
-    <div className="contact-container">
+    <div className="contact-container bg-white rounded-lg dark:bg-gray-800">
       <main>
         <div className="row">
           <div className="column">
@@ -55,11 +13,11 @@ export function Contact() {
                   <br />
                   <a
                     href="tel:07445549727<"
-                    title="Call evans exterior cleaning"
-                    style={{ color: '#000' }} >
-                    <FaPhone size={38} 
-                    
-                    style={{ color: 'aqua' }}
+                    title="Call"
+                  >
+                    <FaPhone size={38}
+
+                      style={{ color: 'indigo' }}
                     />
                     020-8665-4227
                   </a>
@@ -70,11 +28,10 @@ export function Contact() {
                   <a
                     href="mailto:info@croydonwebservices.com"
                     title="Email info@croydonwebservices.com"
-                    style={{ color: '#000' }}
                   >
-                    <FaEnvelope size={38} 
-                    style={{ color: 'aqua' }}
-                    
+                    <FaEnvelope size={38}
+                      style={{ color: 'indigo' }}
+
                     />
                     info@croydonwebservices.com
                   </a>
@@ -112,7 +69,6 @@ export function Contact() {
       <style jsx>{`
         .contactimage{
           background-image: 
-            
             url(./1.webp);
           background-repeat: no-repeat;
           background-size: auto;
@@ -162,8 +118,6 @@ export function Contact() {
           text-align: left;
           text-decoration: none;
           transition: color 0.15s ease, border-color 0.15s ease;
-          background-color: white;
-           border: 0.2rem solid white;
         }
           .contact-description{
           margin: 0;

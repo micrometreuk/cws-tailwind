@@ -45,7 +45,7 @@ export default function Moto() {
                 <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                   <div className="flex items-center space-x-6 lg:space-x-8">
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+                      <div className="h-84 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
                       <Image
                                 src="/3.webp"
                                 alt="About picture"
@@ -53,7 +53,7 @@ export default function Moto() {
                                 height={300}
                             />
                       </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div className="h-84 w-44 overflow-hidden rounded-lg">
                       <Image
                                 src="/4.jpeg"
                                 alt="About picture"
@@ -63,7 +63,7 @@ export default function Moto() {
                       </div>
                     </div>
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div className="h-84 w-44 overflow-hidden rounded-lg">
                       <Image
                                 src="/5.jpeg"
                                 alt="About picture"
@@ -71,7 +71,7 @@ export default function Moto() {
                                 height={300}
                             />
                       </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                      <div className="h-84 w-44 overflow-hidden rounded-lg">
                       <Image
                                 src="/6.jpeg"
                                 alt="About picture"
@@ -79,8 +79,6 @@ export default function Moto() {
                                 height={300}
                             />
                       </div>
-                    </div>
-                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                     </div>
                   </div>
                 </div>

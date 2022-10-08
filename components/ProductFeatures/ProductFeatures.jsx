@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import styles from "./ProductFeatures.module.css";
 
 const features = [
   { name: 'Website security (SSL)  ', description: 'Designed by Good Goods, Inc.' },
