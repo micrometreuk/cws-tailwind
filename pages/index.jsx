@@ -6,11 +6,11 @@ import Banner from '../components/Banner'
 import NavBar1 from '../components/NavBar1'
 import NavBar2 from '../components/NavBar2'
 import NavBar3 from '../components/NavBar3'
-import Heading from '../components/Heading/'
-import Feature from '../components/Feature/'
+import Heading from '../components/Heading'
+import Feature from '../components/Feature'
 import Moto from "../components/Moto/Moto";
 import Showcase from "../components/Showcase/Showcase";
-import Pricing from '../components/Pricing/'
+import Pricing from '../components/Pricing'
 import ProductFeatures from "../components/ProductFeatures/ProductFeatures";
 import CopyRight from '../components/Copyright'
 import Footer from "../components/Footer";

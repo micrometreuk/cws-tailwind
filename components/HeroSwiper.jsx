@@ -6,13 +6,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Container from '../components/Container';
 import Separator from '../components/Separator';
 import { media } from '../components/Media';
-import img from '../public/2.webp';
 
 
 
 const TESTIMONIALS = [
   {
-    companyLogoUrl: '/testimonials/company-logo-1.svg',
+    companyLogoUrl: '/10.webp',
     content: `Really good. I am so pleased with this product. I didn't even need training.`,
     author: {
       name: 'Clyde Edwards',
@@ -21,7 +20,7 @@ const TESTIMONIALS = [
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-2.svg',
+    companyLogoUrl: '/11.webp',
     content: `It's really wonderful. I use saas product often. Thank You! Saas product has really helped our business.`,
     author: {
       name: 'Jimmy Hunter',
@@ -31,7 +30,7 @@ const TESTIMONIALS = [
     },
   },
   {
-    companyLogoUrl: '/testimonials/company-logo-3.svg',
+    companyLogoUrl: '/13.webp',
     content: `Since I invested in saas product I made over 100,000 dollars profits. It really saves me time and effort. saas product is exactly what our business has been lacking.`,
     author: {
       name: 'Marjorie Morgan',
@@ -44,7 +43,7 @@ const TESTIMONIALS = [
 
 
 
-export default function Testimonials() {
+export default function HeroSwiper() {
   return (
     <div
     
@@ -111,7 +110,6 @@ const TestimonialsWrapper = styled(Container)`
   .swiper-button-next {
     color: rgb(var(--textSecondary));
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23currentColor'%2F%3E%3C%2Fsvg%3E");
-    background-image: url(${img});
   }
 `;
 
