@@ -11,6 +11,7 @@ import Feature from '../components/Feature'
 import Moto from "../components/Moto/Moto";
 import Showcase from "../components/Showcase/Showcase";
 import Pricing from '../components/Pricing'
+import Pricing2 from "../components/Pricing2/Pricing2";
 import ProductFeatures from "../components/ProductFeatures/ProductFeatures";
 import CopyRight from '../components/Copyright'
 import Footer from "../components/Footer";
@@ -62,6 +63,7 @@ export default function Home() {
                 variants={title}
               >
                 <Heading />
+                <Pricing2 />
                 <Feature />
                 <Pricing />
                 <Moto />
